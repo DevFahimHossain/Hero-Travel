@@ -855,29 +855,6 @@ margin-left: -50px;
   font-size: 2rem;
 }
 
-
-.choose-us{
-  max-width: 100%;
-  align-items: center;
-  text-align: center;
-}
-.choose-us h1{
-
-font-weight: 800;
-font-size: 2rem;
-text-align: center;
-}
-
-.choose-us p{
-margin-top: 16px;
-font-weight: 400;
-font-size: 14px;
-margin-left:40px;
-text-align: center;
-align-items: center;
-}
-
-
 .hotel,.map,.discount{
   max-width: 335px;
   height: 289px;
@@ -886,6 +863,14 @@ align-items: center;
 .discount{
   margin-left: 0;
   margin-bottom: 10px;
+}
+.choose-us{
+  margin: 0;
+  
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  text-align: center;
 }
 
 .sec6h{
@@ -951,6 +936,7 @@ font-size: 1.2rem;
 }
 
 .newsleter{
+  flex-direction: column;
   gap: 16px;
 }
 .off{
