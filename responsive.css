@@ -120,6 +120,35 @@
   font-weight: 800;
   margin-top: 24px;
 }
+
+
+.destination{
+max-width: 100%;
+margin: 550px 0px;
+}
+.destination h1{
+font-size: 1rem;
+margin-left: -50px;
+
+}
+
+.destination p{
+  align-items: start;
+  margin-top: 10px;
+  max-width: 100%;
+  text-align: start;
+}
+.country{
+  margin-top: -550px;
+  margin-left: -20px;
+}
+.row{
+  flex-direction: column;
+}
+
+.text{
+  font-size: 1rem;
+}
 }
 
 

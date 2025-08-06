@@ -193,4 +193,63 @@ display: flex;
 
 /* section 3 start  */
 
+.destination{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 643px;
+  height: 126px;
+  margin-left: 263px;
 
+}
+.destination H1{
+font-weight: 800;
+font-style: ExtraBold;
+font-size: 40px;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+}
+.destination p{
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+/* section 3 end  */
+
+/* section 4 start  */
+
+.row{
+  display: flex;
+  gap: 24px;
+  padding: 20px;
+}
+.destination-place{
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.destination-place img{
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-shadow: 1px 1px 6px rgba(0,0,0,0.6);
+}
+
+/* section 4 end  */
