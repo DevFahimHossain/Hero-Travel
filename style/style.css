@@ -228,20 +228,20 @@ text-align: center;
   gap: 24px;
   padding: 20px;
 }
-.destination-place{
+.destination-place ,.place{
   position: relative;
   overflow: hidden;
   border-radius: 10px;
 }
 
-.destination-place img{
+.destination-place img , .place img{
   width: 100%;
   height: auto;
   display: block;
   object-fit: cover;
 }
 
-.text {
+.text{
   position: absolute;
   top: 50%;
   left: 50%;
@@ -281,4 +281,236 @@ font-size: 16px;
 line-height: 26px;
 letter-spacing: 0%;
 text-align: center;
+}
+
+
+/* section 5 end  */
+
+/* scetion 6 start  */
+
+
+.section6{
+  display: flex;
+  max-width: 100%;
+  flex-wrap: wrap;
+  gap: 20px;
+  
+}
+
+.hotel{
+max-width:573px;
+height:284px;
+border-radius: 16px;
+border: 1px solid #FBB56333;
+background-color: #FBB5630D;
+padding: 32px;
+}
+.map{
+max-width:573px;
+height:284px;
+border-radius: 16px;
+border: 1px solid rgba(41, 206, 246, 0.2);
+background-color: #29CEF633;
+padding: 32px;
+}
+.discount{
+margin-left: 298px;
+max-width:573px;
+height:284px;
+border-radius: 16px;
+border: 1px solid rgba(233, 68, 68, 0.2);
+background-color: #E9444433;
+padding: 32px;
+}
+
+.sec6h{
+font-weight: 800;
+font-size: 1.5rem;
+margin-top: 32px;
+}
+
+.sec6p{
+font-weight: 400;
+font-size: 1rem;
+color: rgba(90, 90, 93, 1);
+margin-top: 16px;
+}
+
+
+/* section 6 end  */
+/* section 7 start  */
+
+.tour-satorini{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 24px;
+}
+.price {
+  width: 579px;
+  height: 389px;
+  padding: 50px;
+  border-radius: 16px;
+  position: absolute;
+  top: 45%;
+  left: 60%;
+  transform: translate(-30%, -50%);
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 2px solid rgba(255, 255, 255, 1);
+  margin-top: 50px;
+ 
+}
+
+.price2 {
+  width: 579px;
+  height: 389px;
+  padding: 50px;
+  border-radius: 16px;
+  position: absolute;
+  top: 40%;
+  left: 20%;
+  transform: translate(-30%, -50%);
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 2px solid rgba(255, 255, 255, 1);
+  margin-top: 50px;
+}
+
+.icon{
+  display: flex;
+  gap:20px;
+}
+.iconp1{
+  display: flex;
+  gap: 10px;
+}
+.iconp1 i{
+  color: rgba(255, 84, 0, 1);
+}
+.priceh{
+font-weight: 800;
+font-style: ExtraBold;
+font-size: 1.5rem;
+margin-top:24px;
+}
+.pricep{
+font-weight: 400;
+font-size: 1rem;
+color:rgba(90, 90, 93, 1);
+margin-top: 16px;
+}
+.taka{
+font-weight: 800;
+font-size: 1.25rem;
+margin-top:15px;
+}
+.price .btn, .price2 .btn{
+  font-size: 1.125rem;
+}
+/* section 7 end  */
+/* secyion 8 start  */
+.simpleplace{
+  display: flex;
+
+}
+
+.simpleplace-contanr{
+  width: 50%
+}
+.simpleplace-contanr h1{
+font-weight: 800;
+font-size: 2.125rem;
+}
+.simpleplace-contanr p{
+font-weight: 400;
+font-style: Regular;
+font-size: 1rem;
+color: rgba(90, 90, 93, 1);
+margin-top: 24px;
+}
+.simpleplace-contanr ul{
+  font-size: 1rem;
+  margin-left: 20px;
+  color:rgba(19, 19, 24, 1);
+;
+}
+.simpleplace-contanrimg{
+  background-image: url('../Images/Group\ 40089.png');
+  background-repeat: no-repeat;
+  border-radius: 16px;
+  max-width:50%;
+}
+
+.simpleplace-contanrimg .text{
+font-weight: 700;
+font-size: 1.5rem;
+line-height: 36px;
+text-align: center;
+}
+
+/* section 8 end  */
+
+.newsleter{
+  display: flex;
+  gap: 16px;
+}
+.from{
+  width: 474px;
+  height: 422px;
+  border: 1px solid rgba(255, 84, 0, 1);
+  border-radius: 16px;
+  padding: 40px;
+}
+.from h3{
+  font-size:1.5rem ;
+  font-weight: 800;
+}
+.from p{
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 16px;
+  margin-bottom:24px ;
+  
+}
+.formcontainer{
+border: 1px solid rgba(19, 19, 24, 0.1);
+border-top: none;
+border-left: none;
+border-right: none;
+}
+.from form{
+ margin-top: 24px;
+}
+.namefield,.emailfield, .sbtn{
+width:393px;
+height:52px ;
+background: #1313180D;
+border-radius: 8px;
+color: rgba(19, 19, 24, 0.3);
+padding-left: 20px;
+font-family: Mulish;
+font-weight: 400;
+font-size: 16px;
+margin-bottom: 16px;
+border: 0;
+}
+
+.sbtn{
+  color: white;
+  background-color: rgba(255, 84, 0, 1);
+}
+.off{
+  background-color: rgba(255, 84, 0, 1);
+  width: 324px;
+  height: 120px;
+  border-radius: 16px;
+  rotate: -19.63deg;
+  margin-top: -170px;
+  margin-left: 342px;
+}
+.off{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
 }

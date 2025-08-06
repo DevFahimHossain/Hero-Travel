@@ -168,6 +168,163 @@ font-weight: 400;
 font-size: 14px;
 margin-left:40px;
 }
+
+.section6{
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.hotel,.map,.discount{
+  max-width: 335px;
+  height: 289px;
+}
+
+.discount{
+  margin-left: 0;
+  margin-bottom: 10px;
+}
+
+.sec6h{
+font-weight: 800;
+font-size: 1rem;
+margin-top: 32px;
+}
+.sec6p{
+font-weight: 400;
+font-size: .8rem;
+color: rgba(90, 90, 93, 1);
+margin-top: 16px;
+}
+
+.place img{
+  width: 335px;
+  height: 500px;
+}
+.price,.price2{
+  width: 303px;
+  height: 297px;
+}
+
+.price , .price2{
+ padding:30px;
+  border-radius: 16px;
+  position: absolute;
+  top: 55%;
+  left: 30%;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 2px solid rgba(255, 255, 255, 1);
+}
+.priceh{
+  font-size: 1.025rem;
+  margin-top: 10px;
+}
+.pricep{
+font-weight: 400;
+font-size: .8rem;
+color:rgba(90, 90, 93, 1);
+margin-top: 12px;
+}
+.taka{
+font-weight: 800;
+font-size: 1rem;
+margin-top:10px;
+}
+
+.price .btn, .price2 .btn{
+  font-size: 1rem;
+  margin-top: 10px;
+}
+.icon{
+  flex-wrap: wrap;
+}
+
+.simpleplace{
+  flex-direction: column;
+}
+.simpleplace-contanr{
+  width: 100%;
+}
+.simpleplace-contanrimg{
+  margin-top: 10px;
+  max-width: 100%;
+  background-size: 100%;
+  margin-right: 10px;
+}
+
+.simpleplace-contanrimg .text{
+font-weight: 700;
+font-size: .8rem;
+text-align: center;
+line-height: 1.5;
+}
+
+.simpleplace-contanr h1{
+font-weight: 800;
+font-size: 1.2rem;
+}
+
+.newsleter{
+  flex-direction: column;
+  gap: 16px;
+}
+.from{
+  width: 335px;
+  height: 353px;
+  border: 1px solid rgba(255, 84, 0, 1);
+  border-radius: 16px;
+  padding: 24px;
+}
+
+.namefield,.emailfield,.sbtn{
+width:288px;
+height:45px ;
+background: #1313180D;
+border-radius: 8px;
+color: rgba(19, 19, 24, 0.3);
+padding-left: 20px;
+font-family: Mulish;
+font-weight: 400;
+font-size: .8rem;
+padding: 20px;
+margin-bottom: 16px;
+border: 0;
+}
+
+.sbtn{
+  color: white;
+  background-color: rgba(255, 84, 0, 1);
+}
+.fromimg img{
+  width: 335px;
+  height: 300px;
+}
+.off{
+  background-color: rgba(255, 84, 0, 1);
+  max-width:214px;
+  height: 79.9px;
+  border-radius: 16px;
+  rotate: -19.63deg;
+  margin-top: -120px;
+  margin-left: 115px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 /* Medium Device */
