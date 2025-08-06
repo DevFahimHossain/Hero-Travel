@@ -307,7 +307,50 @@ border: 0;
   margin-top: -120px;
   margin-left: 115px;
 }
+footer{
+  padding: 0 auto;
+  margin: 0 auto;
+  background: none;
+}
 
+.footer-logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+ 
+}
+.footer-logo img{
+  width: 28px;
+  height: 33px;
+}
+.footer-logo p{
+  font-size: 1.25rem;
+  font-weight: 800;
+}
+.footer{
+  padding: 0;
+  max-width: 370px;
+  height: 309px;
+}
+.footerp{
+width: 287px;
+height: 96px;
+font-size: 1rem;
+}
+.social{
+width: 174px;
+height: 24px;
+margin:80px 0 -00px 60px;
+}
+.copyright{
+  width: 167px;
+font-weight: 300;
+font-style: Light;
+font-size: 12px;
+margin-top: 20px;
+
+}
 
 
 
